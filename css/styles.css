@@ -269,6 +269,9 @@ nav {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+.team-icon {
+  display: block;
+}
 .our-team-text {
   margin-top: 10px;
 }
