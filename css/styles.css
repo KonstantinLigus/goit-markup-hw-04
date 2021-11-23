@@ -135,7 +135,9 @@ nav {
 .footer-link:hover,
 .footer-link:focus,
 .logo:hover,
-.logo:focus {
+.logo:focus,
+.logo:hover .logo-accent-studio,
+.logo:focus .logo-accent-studio {
   color: var(--text-third-color);
 }
 .contacts-link {
