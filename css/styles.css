@@ -124,7 +124,7 @@ nav {
   letter-spacing: 0.02em;
   color: var(--text-second-color);
 }
-.header-contacts > li:last-child {
+.contacts-item:last-child {
   margin-left: 50px;
 }
 .current {
@@ -159,6 +159,8 @@ nav {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/background-heder.jpg);
   background-repeat: no-repeat;
+  background-size: 1600px;
+  background-position: 50% 50%;
 }
 
 .hero-title {
@@ -210,13 +212,14 @@ nav {
   margin-right: 30px;
 }
 .container-advantages-icon {
-  margin: 0 auto 30px;
-  padding: 25px 100px;
+  height: 120px;
+  margin-bottom: 30px;
   border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.advantages-icon {
-  /* fill: var(--text-second-color); */
-}
+
 .advantages-title {
   font-weight: 700;
   font-size: 14px;
@@ -273,13 +276,12 @@ nav {
 }
 .our-team-member {
   padding-top: 30px;
-  padding-bottom: 16px;
+  padding-bottom: 30px;
 }
 .container-team-icon {
+  margin-top: 16px;
   display: flex;
   justify-content: center;
-  align-content: center;
-  padding-bottom: 30px;
 }
 .team-item {
   height: 44px;
@@ -394,9 +396,9 @@ nav {
 
 .address-join-container {
   display: flex;
+  align-items: baseline;
 }
 .join-container {
-  padding-top: 12px;
   margin-left: 70px;
 }
 .join-text {
